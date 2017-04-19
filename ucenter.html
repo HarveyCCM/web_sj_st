@@ -1,0 +1,1159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="好呗平台,培养和发展兴趣的平台,能赚钱的平台,让兴趣变成收益,生活技能平台,让赚钱变的更容易,助您实现个人财务自由" />
+<meta name="keywords" content="好呗平台,培养和发展兴趣的平台,能赚钱的平台,让兴趣变成收益,生活技能平台,让赚钱变的更容易,助您实现个人财务自由,什么是好呗？,好呗平台好吗？" />
+<title>好呗——培养和发展兴趣技能的服务平台</title>
+<link rel="stylesheet" href="css/basic.css" />
+<link  rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<div  class="u_centerbg">
+    	<!-----------------------------弹出框集中------------------------------->
+    	<div class="raa_bg" style=" display:none">
+            <!-------------------弹出框集中--------------------->
+            <!------------认证入口------------->
+            <div class="aut_orally" >
+            	<div class="auto_close"></div>
+                <div class="auto_button fl">
+                	<div class="abutton">我要认证红人</div>
+                    <div class="text">个人兴趣爱好技能的社群服务平台<br /><span>（个人推荐）</span></div>
+                </div>
+                
+                <div class="auto_button fl">
+                	<div class="abutton01">我要认证商户</div>
+                    <div class="text">全方位的社群营销服务平台<br /><span>（商户推荐）</span></div>
+                </div>
+                
+            </div>
+            <!---------添加地址----------->
+            <div class="aaddress" style="display:none;">
+                <div class="aad_title">
+                    添加收货地址 <ico></ico>
+                </div>
+                <div class="aadc_t" style="padding-top:25px;"><span>*</span>收货人</div>
+                <div class="aadc_in"><input type="text" /></div>
+                
+                <div class="aadc_t" style="padding-top:17px;"><span>*</span>所在城区</div>
+                <div class="aadc_se fl">
+                    <select  onchange="loadCity()">
+                        <option>请选择</option>
+                        <option value="1">北京</option>
+                        <option value="2">上海</option>
+                        <option value="3">天津</option>
+                        <option value="4">重庆</option>
+                        <option value="5">河北</option>
+                        <option value="6">山西</option>
+                        <option value="7">河南</option>
+                        <option value="8">辽宁</option>
+                        <option value="9">吉林</option>
+                        <option value="10">黑龙江</option>
+                        <option value="11">内蒙古</option>
+                        <option value="12">江苏</option>
+                        <option value="13">山东</option>
+                        <option value="14">安徽</option>
+                        <option value="15">浙江</option>
+                        <option value="16">福建</option>
+                        <option value="17">湖北</option>
+                        <option value="18">湖南</option>
+                        <option value="19">广东</option>
+                        <option value="20">广西</option>
+                        <option value="21">江西</option>
+                        <option value="22">四川</option>
+                        <option value="23">海南</option>
+                        <option value="24">贵州</option>
+                        <option value="25">云南</option>
+                        <option value="26">西藏</option>
+                        <option value="27">陕西</option>
+                        <option value="28">甘肃</option>
+                        <option value="29">青海</option>
+                        <option value="30">宁夏</option>
+                        <option value="31">新疆</option>
+                        <option value="32">台湾</option>
+                        <option value="84">钓鱼岛</option>
+                        <option value="52993">港澳</option>
+                    </select>
+                </div>
+                <div class="aadc_se fl">
+                    <select  onchange="loadCity()">
+                        <option>请选择</option>
+                    </select>
+                </div>
+                <div class="aadc_se fl">
+                    <select  onchange="loadCity()">
+                        <option>请选择</option>
+                    </select>
+                </div>
+                <!--------clear------------->
+                <div class="clear"></div>
+                
+                <div class="aadc_t" style="padding-top:17px;"><span>*</span>详细地址</div>
+                <div class="aadc_in" style="width:656px;"><input type="text" /></div>
+                
+                
+                <div class="aadc_t fl" style="padding-top:17px; width:304px;"><span>*</span>手机号码</div>
+                <div class="aadc_t fl" style="padding-top:17px; width:304px; margin-left:23px;">座机号码</div>
+                <!--------clear------------->
+                <div class="clear"></div>
+                
+                <div class="aadc_in fl" style="width:304px;"><input type="text" /></div>
+                <div class="aadc_in fl" style="width:304px;"><input type="text" /></div>
+                <!--------clear------------->
+                <div class="clear"></div>
+                
+                <div class="addc_bu">保存地址</div>
+                
+            </div>
+            <!----------设置头像-------------->
+            <div class="aaddress" style=" width:600px; height:490px; margin-left:-300px; display:none;">
+                <div class="aad_title" style="width:580px;">
+                    设置我的头像 <ico></ico>
+                </div>
+                <div class="add_head">
+                	
+                </div>
+                
+                <div class="addc_bu" style="margin:40px auto;margin-top:70px;">保存头像</div>
+                
+            </div>
+            
+            <!----------设置背景形象-------------->
+            <div class="aaddress" style=" width:600px; height:490px; margin-left:-300px;display:none;">
+                <div class="aad_title" style="width:580px;">
+                    设置背景形象 <ico></ico>
+                </div>
+                <div class="add_head02">
+                	
+                </div>
+                
+                <div class="addc_bu" style="margin:40px auto;margin-top:70px;">保存形象</div>
+            </div>
+            
+            <!----------修改密码-------------->
+            <div class="aaddress" style=" width:600px; height:510px; margin-left:-300px; display:none;">
+                <div class="aad_title" style="width:580px;">
+                    修改密码 <ico></ico>
+                </div>
+                <div class="aadc_t" style="padding-top:25px;">输入原始密码</div>
+                <div class="aadc_in"><input type="text" /></div>
+                <div style="height:30px; line-height:25px; padding-left:25px; font-size:13px; color:#F00;">原始密码输入错误</div>
+                
+                <div class="aadc_t" style="padding-top:5px;">输入新密码</div>
+                <div class="aadc_in"><input type="password" /></div>
+                <div style="height:30px; line-height:25px; padding-left:25px; font-size:13px; color:#F00;">密码为6~24位英文、字母等组成</div>
+                
+                <div class="aadc_t" style="padding-top:5px;">再输一遍新密码</div>
+                <div class="aadc_in" ><input type="password" /></div>
+               
+                
+                <div class="addc_bu" >确认修改</div>
+                
+            </div>
+            
+            <!----------修改绑定手机号-------------->
+            <div class="aaddress" style=" width:600px; height:450px; margin-left:-300px;  display:none;">
+                <div class="aad_title" style="width:580px;">
+                    绑定手机管理 <ico></ico>
+                </div>
+                <div class="aadc_t" style="padding-top:35px;">此验证码将以短信形式发送至您当前已绑定的手机</div>
+                <div class="aadc_in fl"><input type="text" /></div>
+                <div class="code_z fl" style="display:none;">获取验证码</div>
+                <div class="code_x fl" >59s重发</div>
+                <!--------clear------------->
+                <div class="clear"></div>
+                <div style="height:30px; line-height:25px; padding-left:25px; font-size:13px; color:#F00;">原始密码输入错误</div>
+                
+                <div class="aadc_t" style="padding-top:15px;">输入新绑定手机号</div>
+                <div class="aadc_in"  style="width:434px;"><input type="text" /></div>
+                <div style="height:30px; line-height:25px; padding-left:25px; font-size:13px; color:#F00;">请输入正确的手机号</div>
+
+                <div class="addc_bu" >确认绑定</div>
+                
+            </div>
+            
+            
+        </div>
+        
+        
+        
+        
+        
+        <div class="uc_nav">
+        	<div class="ucn_logo">
+            	<ico></ico>个人中心
+            </div>
+            <div class="ucn_nav " style="margin-top:15px;">
+            	<span></span>我的钱包
+            </div>
+            <div class="ucn_nav ucon">
+            	<span></span>我的订单<ico></ico>
+            </div>
+            <div class="ucnz_list">
+            	<div class="ucnzl_l">服务订单</div>
+                <div class="ucnzl_l">活动订单</div>
+                <div class="ucnzl_l">课程订单</div>
+            </div>
+            <div class="ucn_nav  ">
+            	<span></span>我的会员卡
+            </div>
+            <div class="ucn_nav ">
+            	<span></span>我的优惠券
+            </div>
+            <div class="ucn_nav ">
+            	<span></span>我的地址
+            </div>
+            <div class="ucn_nav ">
+            	<span></span>我的关注
+            </div>
+            <div class="ucn_nav">
+            	<span></span>我的动态
+            </div>
+            <div class="ucn_nav">
+            	<span></span>账户设置
+            </div>
+            <div class="ucn_upgrade">
+            	认证好呗红人/商户
+            </div>
+            
+            
+        </div>
+        <div class="uc_conten">
+        	<div class="ucc_tnav">
+            	<div class="ucct_search">
+                	<ico></ico><input type="text" placeholder="全站搜索" class="fl" />
+                </div>
+                <div class="ucct_id fr">
+                	<span style="display:block;float:left;">Harver</span><span class="uccti_ico"></span>
+                </div>
+                 <div class="ucct_id fr">
+                	消息（<span style="color:#f60;">23</span>） 
+                </div>
+                 <div class="ucct_id fr">
+                	<a href="#">首&nbsp;&nbsp;页</a>
+                </div>
+            </div>
+            
+            <!-------------------我的钱包--------------------->
+            <div class="my_bg" style="display:none;">
+            	<div class="wallet_data">
+                	<div class="wdata_title fl">
+                    	好呗余额
+                    </div>
+                    <div class="wdata_c fl">
+                    	1950￥
+                    </div>
+                    <div class="wdata_b fr">
+                    	提现
+                    </div>
+                </div>
+                <div class="wallet_listt">
+                	历史纪录
+                </div>
+                <div class="wallet_list">
+                	<div class="walletl_l">
+                    	<span class="walletl_lt">购买施耐德用品消费 5986.00  </span><span class="walletl_ltime">2017.01.12  16:00</span>
+                    </div>
+                    
+                    <div class="walletl_l">
+                    	<span class="walletl_lt">购买施耐德用品消施耐德用品消施耐德用品消费 5986.00  </span><span class="walletl_ltime">2017.01.12  16:00</span>
+                    </div>
+                    
+                    <div class="walletl_l">
+                    	<span class="walletl_lt">购买施耐德施耐德用品消施耐德用品消用品消费 5986.00  </span><span class="walletl_ltime">2017.01.12  16:00</span>
+                    </div>
+                    
+                    <div class="walletl_l">
+                    	<span class="walletl_lt">购买施耐德用施耐德用品消施耐德用品消施耐德用品消品消费 5986.00  </span><span class="walletl_ltime">2017.01.12  16:00</span>
+                    </div>
+                     <div class="walletl_l">
+                    	<span class="walletl_lt">购买施耐德用施耐德用品消施耐德用品消施耐德用品消品消费 5986.00  </span><span class="walletl_ltime">2017.01.12  16:00</span>
+                    </div>
+                     <div class="walletl_l">
+                    	<span class="walletl_lt">购买施耐德用施耐德用品消施耐德用品消施耐德用品消品消费 5986.00  </span><span class="walletl_ltime">2017.01.12  16:00</span>
+                    </div>
+                     <div class="walletl_l">
+                    	<span class="walletl_lt">购买施耐德费 5986.00  </span><span class="walletl_ltime">2017.01.12  16:00</span>
+                    </div>
+                     <div class="walletl_l">
+                    	<span class="walletl_lt">购买施耐德用品消施耐德用品消品消费 5986.00  </span><span class="walletl_ltime">2017.01.12  16:00</span>
+                    </div>
+                     <div class="walletl_l">
+                    	<span class="walletl_lt">购买施耐德用施耐德用品消施耐德用品消施耐德用品消品消费 5986.00  </span><span class="walletl_ltime">2017.01.12  16:00</span>
+                    </div>
+                
+                </div>
+                
+            </div>
+            
+            <!-------------------我的订单--------------------->
+            <div class="my_bg" style="display:none">
+            	<div class="qrder_nav">
+                	<span class="on">全部</span><span>预约中</span><span>待服务</span><span>待评论</span><span>退款单</span>
+                </div>
+                <div class="wallet_listt" style="margin-top:15px; border-top:none; color:#b3b3b3;">
+                	名称<span class="qrder_t03">操作</span> <span class="qrder_t02">状态</span> <span class="qrder_t01">价格</span>
+                </div>
+                <div class="wallet_list" style="top:100px;">
+                	<div class="walletl_l">
+                    	<span class="qrder_lt" style="right:310px;">购买施耐德用品买施耐德用品买施耐德用品买施耐德用品  </span>
+                        <span class="qrder_lt03">删除</span>
+                        <span class="qrder_lt02">预约中</span>
+                        <span class="qrder_lt01">586.22￥</span>
+                    </div> 
+                    <div class="walletl_l">
+                    	<span class="qrder_lt" style="right:310px;">购买施耐德用品买施耐德用品买施耐德用品买施耐德用品  </span>
+                        <span class="qrder_lt03">删除</span>
+                        <span class="qrder_lt02">预约中</span>
+                        <span class="qrder_lt01">586.22￥</span>
+                    </div> 
+                    <div class="walletl_l">
+                    	<span class="qrder_lt" style="right:310px;">购买施耐德用品买施耐德用品买施耐德用品买施耐德用品  </span>
+                        <span class="qrder_lt03">删除</span>
+                        <span class="qrder_lt02">预约中</span>
+                        <span class="qrder_lt01">586.22￥</span>
+                    </div> 
+                    <div class="walletl_l">
+                    	<span class="qrder_lt" style="right:310px;">购买施耐德用品买施耐德用品买施耐德用品买施耐德用品  </span>
+                        <span class="qrder_lt03">删除</span>
+                        <span class="qrder_lt02">预约中</span>
+                        <span class="qrder_lt01">586.22￥</span>
+                    </div>                   
+                
+                </div>
+                
+            </div>
+            
+            
+            <!-------------------我的关注--------------------->
+            <div class="my_bg" style="display:none;">
+            	<div class="qrder_nav">
+                	<span class="on">默认排序</span><span>热门优先</span><span>有券优先</span>
+                </div>
+                <div class="follow_c">            
+                	<div class="followc_list">
+                    	<div class="fcl_img"></div>
+                        <div class="fcl_c">
+                        	<div class="fclc_name">心理学权威老师——Dave<span>6.3万人关注</span></div>
+                        	<div class="fclc_text">
+                            心理学是一门研究人类的心理现象、精神功能和行为的科学，既是一门理论学科，也是一门应用学科。包括基础心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人际关系、社会关……
+                            </div>
+                        </div>
+                        <div class="fclc_d"></div>
+                    </div>
+                    
+                    <div class="followc_list">
+                    	<div class="fcl_img"></div>
+                        <div class="fcl_c">
+                        	<div class="fclc_name">心理学权威老师——Dave<span>6.3万人关注</span></div>
+                        	<div class="fclc_text">
+                            心理学是一门研究人类的心理现象、精神功能和行为的科学，既是一门理论学科，也是一门应用学科。包括基础心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人际关系、社会关……
+                            </div>
+                        </div>
+                        <div class="fclc_d"></div>
+                    </div>
+                    
+                    <div class="followc_list">
+                    	<div class="fcl_img"></div>
+                        <div class="fcl_c">
+                        	<div class="fclc_name">心理学权威老师——Dave<span>6.3万人关注</span></div>
+                        	<div class="fclc_text">
+                            心理学是一门研究人类的心理现象、精神功能和行为的科学，既是一门理论学科，也是一门应用学科。包括基础心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人际关系、社会关……
+                            </div>
+                        </div>
+                        <div class="fclc_d"></div>
+                    </div>
+                    <div class="followc_list">
+                    	<div class="fcl_img"></div>
+                        <div class="fcl_c">
+                        	<div class="fclc_name">心理学权威老师——Dave<span>6.3万人关注</span></div>
+                        	<div class="fclc_text">
+                            心理学是一门研究人类的心理现象、精神功能和行为的科学，既是一门理论学科，也是一门应用学科。包括基础心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人际关系、社会关……
+                            </div>
+                        </div>
+                        <div class="fclc_d"></div>
+                    </div>
+                    <div class="followc_list">
+                    	<div class="fcl_img"></div>
+                        <div class="fcl_c">
+                        	<div class="fclc_name">心理学权威老师——Dave<span>6.3万人关注</span></div>
+                        	<div class="fclc_text">
+                            心理学是一门研究人类的心理现象、精神功能和行为的科学，既是一门理论学科，也是一门应用学科。包括基础心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人际关系、社会关……
+                            </div>
+                        </div>
+                        <div class="fclc_d"></div>
+                    </div>
+                    <div class="followc_list">
+                    	<div class="fcl_img"></div>
+                        <div class="fcl_c">
+                        	<div class="fclc_name">心理学权威老师——Dave<span>6.3万人关注</span></div>
+                        	<div class="fclc_text">
+                            心理学是一门研究人类的心理现象、精神功能和行为的科学，既是一门理论学科，也是一门应用学科。包括基础心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人际关系、社会关……
+                            </div>
+                        </div>
+                        <div class="fclc_d"></div>
+                    </div>
+                </div>
+                <div class="paging">
+                    <ul>
+                        <li class="limit" style="display:none;">上一页</li>
+                        <li class="each">顶页</li>
+                        <li class="each">1</li>
+                        <li class="each on">2</li>
+                        <li class="each">3</li>
+                        <li class="each">4</li>
+                        <li class="each">5</li>
+                        <li class="each">6</li>
+                        <li class="more">……</li>
+                        <li class="each">24</li>
+                        <li class="each">25</li>
+                        <li class="each">26</li>
+                        <li class="each">低页</li>
+                        <li class="limit">下一页</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <!-------------------我的动态--------------------->
+            <div class="my_bg" style="display:none;">
+            	<div class="dynamic_nav">
+                	<span>全 部  <ico></ico>
+                    	<div class="dynamicn_li">
+                        	
+                        </div>
+                    </span>  
+                    <span>排 序  <ico></ico>
+                    	<div class="dynamicn_li">
+                        	
+                        </div>
+                    </span>
+                </div>
+                <div class="follow_c">            
+                	<div class="followc_list">
+                    	
+                        <div class="fcl_c" style="left:15px;">
+                        	<div class="fclc_name" style="color:#f60; font-size:22px;">心理学权威老师——Dave</div>
+                        	<div class="fclc_text">
+                            心理学是一门研究人类的心理现象、精神功能和行为的科学，既是一门理论学科，也是一门应用学科。包括基础心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人际关系、社会关……
+                            </div>
+                        </div>
+                        <div class="fclc_d"></div>
+                    </div>
+                    <div class="followc_list">
+                    	
+                        <div class="fcl_c" style="left:15px;">
+                        	<div class="fclc_name" style="color:#f60; font-size:22px;">心理学权威老师——Dave</div>
+                        	<div class="fclc_text">
+                            心理学是一门研究人类的心理现象、精神功能和行为的科学，既是一门理论学科，也是一门应用学科。包括基础心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人际关系、社会关……
+                            </div>
+                        </div>
+                        <div class="fclc_d"></div>
+                    </div>
+                    <div class="followc_list">
+                    	
+                        <div class="fcl_c" style="left:15px;">
+                        	<div class="fclc_name" style="color:#f60; font-size:22px;">心理学权威老师——Dave</div>
+                        	<div class="fclc_text">
+                            心理学是一门研究人类的心理现象、精神功能和行为的科学，既是一门理论学科，也是一门应用学科。包括基础心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人际关系、社会关……
+                            </div>
+                        </div>
+                        <div class="fclc_d"></div>
+                    </div>
+                    <div class="followc_list">
+                    	
+                        <div class="fcl_c" style="left:15px;">
+                        	<div class="fclc_name" style="color:#f60; font-size:22px;">心理学权威老师——Dave</div>
+                        	<div class="fclc_text">
+                            心理学是一门研究人类的心理现象、精神功能和行为的科学，既是一门理论学科，也是一门应用学科。包括基础心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人际关系、社会关……
+                            </div>
+                        </div>
+                        <div class="fclc_d"></div>
+                    </div>
+                    <div class="followc_list">
+                    	
+                        <div class="fcl_c" style="left:15px;">
+                        	<div class="fclc_name" style="color:#f60; font-size:22px;">心理学权威老师——Dave</div>
+                        	<div class="fclc_text">
+                            心理学是一门研究人类的心理现象、精神功能和行为的科学，既是一门理论学科，也是一门应用学科。包括基础心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人际关系、社会关……
+                            </div>
+                        </div>
+                        <div class="fclc_d"></div>
+                    </div>
+                    <div class="followc_list">
+                    	
+                        <div class="fcl_c" style="left:15px;">
+                        	<div class="fclc_name" style="color:#f60; font-size:22px;">心理学权威老师——Dave</div>
+                        	<div class="fclc_text">
+                            心理学是一门研究人类的心理现象、精神功能和行为的科学，既是一门理论学科，也是一门应用学科。包括基础心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人心理学与应用心理学两大领域。心理学研究涉及知觉、认知、情绪、人格、行为、人际关系、社会关……
+                            </div>
+                        </div>
+                        <div class="fclc_d"></div>
+                    </div>
+                    
+                </div>
+                <div class="paging">
+                    <ul>
+                        <li class="limit" style="display:none;">上一页</li>
+                        <li class="each">顶页</li>
+                        <li class="each">1</li>
+                        <li class="each on">2</li>
+                        <li class="each">3</li>
+                        <li class="each">4</li>
+                        <li class="each">5</li>
+                        <li class="each">6</li>
+                        <li class="more">……</li>
+                        <li class="each">24</li>
+                        <li class="each">25</li>
+                        <li class="each">26</li>
+                        <li class="each">低页</li>
+                        <li class="limit">下一页</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <!-------------------我的收货地址--------------------->
+            <div class="my_bg" style="display:none;">
+            	
+                
+            	<div class="raddress_add">
+                	<img src="images/raddress.png" width="181" height="35" />
+                </div>
+                <div class="raa_c ">
+                	<div class="raac_list ralon">
+                        <div class="raacl_c">
+                        	<div class="raaclc_name">
+                            	<span>李杰瑞</span><span>先生</span><span style="padding-left:20px;">13966174122</span>
+                            </div>
+                            <div class="raaclc_text">
+                            	杭州市滨江区网商路699号   九楼902室
+                            </div>
+                        </div>
+                        <div class="raacl_m">默认</div>
+                    </div>
+                    
+                    <div class="raac_list">
+                        <div class="raacl_c">
+                        	<div class="raaclc_name">
+                            	<span>李杰瑞</span><span>先生</span><span style="padding-left:20px;">13966174122</span>
+                            </div>
+                            <div class="raaclc_text">
+                            	杭州市滨江区网商路699号   九楼902室
+                            </div>
+                        </div>
+                        <div class="raacl_m">默认</div>
+                    </div>
+                    
+                    <div class="raac_list">
+                        <div class="raacl_c">
+                        	<div class="raaclc_name">
+                            	<span>李杰瑞</span><span>先生</span><span style="padding-left:20px;">13966174122</span>
+                            </div>
+                            <div class="raaclc_text">
+                            	杭州市滨江区网商路699号   九楼902室
+                            </div>
+                        </div>
+                        <div class="raacl_m">默认</div>
+                    </div>
+                    <div class="raac_list">
+                        <div class="raacl_c">
+                        	<div class="raaclc_name">
+                            	<span>李杰瑞</span><span>先生</span><span style="padding-left:20px;">13966174122</span>
+                            </div>
+                            <div class="raaclc_text">
+                            	杭州市滨江区网商路699号   九楼902室
+                            </div>
+                        </div>
+                        <div class="raacl_m">默认</div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!-------------------我的会员卡--------------------->
+            <div class="my_bg" style="display:none;">
+            	<div class="qrder_nav">
+                	<span class="on">可使用</span><span>已过期</span><span>最新优惠卡券</span>
+                </div>
+            	<div class="dynamic_nav" style="top:55px;">
+                	<span>全 部  <ico></ico>
+                    	<div class="dynamicn_li">
+                        	<div class="list">服务卡</div>
+                            <div class="list">服务卡</div>
+                            <div class="list">服务卡</div>
+                        </div>
+                    </span>  
+                    <span>排 序  <ico></ico>
+                    	<div class="dynamicn_li" style="display:none;">
+                        	<div class="list">时间排序</div>
+                            <div class="list">时间排序</div>
+                            <div class="list">时间排序</div>
+                        </div>
+                    </span>
+                </div>
+                <div class="follow_c" style="top:120px;">            
+                	<div class="ccou_list">
+                    	<img src="images/card_02.png" width="298" height="176" />
+                    </div>
+                    <div class="ccou_list">
+                    	<img src="images/card_01.png" width="298" height="176"/>
+                    </div>
+                    <div class="ccou_list">
+                    	<img src="images/card_01.png" width="298" height="176"/>
+                    </div>
+                    <div class="ccou_list">
+                    	<img src="images/card_01.png" width="298" height="176"/>
+                    </div>
+                    <div class="ccou_list">
+                    	<img src="images/card_02.png" width="298" height="176" />
+                    </div>
+                    <div class="ccou_list">
+                    	<img src="images/card_02.png" width="298" height="176" />
+                    </div>
+                    <div class="ccou_list">
+                    	<img src="images/card_02.png" width="298" height="176" />
+                    </div>
+                </div>
+                <div class="paging">
+                    <ul>
+                        <li class="limit" style="display:none;">上一页</li>
+                        <li class="each">顶页</li>
+                        <li class="each">1</li>
+                        <li class="each on">2</li>
+                        <li class="each">3</li>
+                        <li class="each">4</li>
+                        <li class="each">5</li>
+                        <li class="each">6</li>
+                        <li class="more">……</li>
+                        <li class="each">24</li>
+                        <li class="each">25</li>
+                        <li class="each">26</li>
+                        <li class="each">低页</li>
+                        <li class="limit">下一页</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            <!-------------------我的优惠券--------------------->
+            <div class="my_bg"  style="display:none;">
+            	<div class="qrder_nav">
+                	<span class="on">可使用</span><span>已过期</span>
+                </div>
+            	<div class="dynamic_nav" style="top:55px;">
+                	<span>全 部  <ico></ico>
+                    	<div class="dynamicn_li" >
+                        	<div class="list">课程全</div>
+                            <div class="list">服务全</div>
+                            <div class="list">打折券</div>
+                        </div>
+                    </span>  
+                    <span>排 序  <ico></ico>
+                    	<div class="dynamicn_li" style="display:none;">
+                        	<div class="list">时间排序</div>
+                            <div class="list">时间排序</div>
+                            <div class="list">时间排序</div>
+                        </div>
+                    </span>
+                </div>
+                <div class="follow_c" style="top:120px;">            
+                	<div class="voucher_list">
+                    	<div class="voucherl_l">
+                        	<div class="title">善佳健康连锁店（3）</div>
+                            <div class="text01">限运动类商品专享</div>
+                            <div class="text02">有效期至：2016-07-21 12:40</div>
+                        </div>
+                        <div class="voucherl_r">
+                        	<div class="price"><span>￥</span>70</div>
+                            <div class="text">满120可用</div>
+                        </div>
+                    </div>
+                    
+                    <div class="voucher_list">
+                    	<div class="voucherl_l">
+                        	<div class="title">善佳健康连锁店（3）</div>
+                            <div class="text01">限运动类商品专享</div>
+                            <div class="text02">有效期至：2016-07-21 12:40</div>
+                        </div>
+                        <div class="voucherl_r">
+                        	<div class="price"><span>￥</span>70</div>
+                            <div class="text">满120可用</div>
+                        </div>
+                    </div>
+                    <div class="voucher_list">
+                    	<div class="voucherl_l">
+                        	<div class="title">善佳健康连锁店（3）</div>
+                            <div class="text01">限运动类商品专享</div>
+                            <div class="text02">有效期至：2016-07-21 12:40</div>
+                        </div>
+                        <div class="voucherl_r">
+                        	<div class="price"><span>￥</span>70</div>
+                            <div class="text">满120可用</div>
+                        </div>
+                    </div>
+                    <div class="voucher_list">
+                    	<div class="voucherl_l">
+                        	<div class="title">善佳健康连锁店（3）</div>
+                            <div class="text01">限运动类商品专享</div>
+                            <div class="text02">有效期至：2016-07-21 12:40</div>
+                        </div>
+                        <div class="voucherl_r">
+                        	<div class="price"><span>￥</span>70</div>
+                            <div class="text">满120可用</div>
+                        </div>
+                    </div>
+                    
+                    <div class="voucher_list">
+                    	<div class="voucherl_l">
+                        	<div class="title">善佳健康连锁店（3）</div>
+                            <div class="text01">限运动类商品专享</div>
+                            <div class="text02">有效期至：2016-07-21 12:40</div>
+                        </div>
+                        <div class="voucherl_r">
+                        	<div class="price"><span>￥</span>70</div>
+                            <div class="text">满120可用</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="paging">
+                    <ul>
+                        <li class="limit" style="display:none;">上一页</li>
+                        <li class="each">顶页</li>
+                        <li class="each">1</li>
+                        <li class="each on">2</li>
+                        <li class="each">3</li>
+                        <li class="each">4</li>
+                        <li class="each">5</li>
+                        <li class="each">6</li>
+                        <li class="more">……</li>
+                        <li class="each">24</li>
+                        <li class="each">25</li>
+                        <li class="each">26</li>
+                        <li class="each">低页</li>
+                        <li class="limit">下一页</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-------------------账户设置--------------------->
+            <div class="my_bg"   style="display:none;">
+            	<div class="sdata_head">
+                	<div class="adh_i">
+                    	<ico></ico>
+                        设置头像
+                    </div>
+                </div>
+                <div class="sdata_d">
+                	<div class="title">基本信息</div>
+                    <div class="sdatad_list" >
+                		<div class="sddl_t">昵&nbsp;&nbsp;称</div>
+                        <div class="sddl_in" style="right:400px;"><input type="text" /></div>
+                	</div>
+                    
+                    <div class="sdatad_list">
+                		<div class="sddl_t">性&nbsp;&nbsp;别</div>
+                        <div class="sddl_in" style="border:none;padding-left:0px;">
+                        	<div class="addl_gender agon"><ico></ico>男</div>
+                            <div class="addl_gender"><ico></ico>女</div>
+                            <div class="addl_gender"><ico></ico>保密</div>
+                        </div>
+                	</div>
+                    
+                    <div class="sdatad_list">
+                		<div class="sddl_t">生&nbsp;&nbsp;日</div>
+                        <div class="sddl_in" style="border:none; padding-left:0px;">
+                        	<div class="sddl_bday">
+                            	<select  onchange="loadCity()">
+                                    <option>请选择</option>
+                                    <option value="1">1991</option>
+                                    <option value="2">1992</option>
+                                    <option value="3">1993</option>
+                                </select>
+                                年
+                            </div>
+                            <div class="sddl_bday">
+                            	<select  onchange="loadCity()">
+                                    <option>请选择</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                                月
+                            </div>
+                            <div class="sddl_bday">
+                            	<select  onchange="loadCity()">
+                                    <option>请选择</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    
+                                </select>
+                                日
+                            </div>
+                        </div>
+                	</div>
+                    <div class="sdatad_list">
+                		<div class="sddl_t">所&nbsp;在&nbsp;地</div>
+                        <div class="sddl_in" style="border:none;padding-left:0px;">
+                        	<div class="location">
+                            	<span>上海市</span><span>普陀区</span><span>万达路911号</span><span>5楼502室</span>
+                                <ico></ico>
+                            </div>
+                        </div>
+                	</div>
+                    <div class="title" style="padding-top:20px;">安全设置</div>
+                    <div class="sdatad_list">
+                		<div class="sddl_t">绑定手机管理</div>
+                        <div class="sddl_in" style="border:none;padding-left:0px; text-align:right;">
+                        	<span style="font-size:16px; font-weight:500; font-family:'微软雅黑';">13866175482</span><span style="font-size:14px;color:#888888; padding-left:24px;">换号码了？<span style="color:#f60; cursor:pointer;">重新绑定</span></span>
+                        </div>
+                	</div>
+                    <div class="sdatad_list">
+                		<div class="sddl_t">修改登录密码</div>
+                        <div class="sddl_in" style="border:none;padding-left:0px; text-align:right;">
+                        	<span style="font-size:14px;color:#888888; padding-left:24px;">这个密码实在不安全？<span style="color:#f60; cursor:pointer;">重新设置</span></span>
+                        </div>
+                	</div>
+				</div>
+            </div>
+            
+            <!----------------------------------红人认证-------------------------------------->
+            <div class="my_bg" style="display:none;">
+            	<!------------------基本信息------------------->
+            	<div class="aut_einf" style="display:none;">
+                	<div class="aut_title">
+                    	<span class="title_01">好呗&nbsp;Hobbier —— 红人认证</span>
+                        <span class="title_02">个人兴趣爱好技能的服务平台</span>
+                        <img src="images/aut_t1.png" />
+                    </div>
+                    <div class="einf_c" style="top:30px;">
+                    	<div class="einfc_l">
+                        	
+                        </div>
+                        <div class="sdata_head" style="left:70px; right:inherit; top:30px;">
+                            <div class="adh_i">
+                                <ico></ico>
+                                设置头像
+                            </div>
+                        </div>
+                        <div class="einfc_r">
+                        	<div class="sdatad_list">
+                                <div class="sddl_t" style="color:#000000; width:110px;">专家姓名</div>
+                                <div class="sddl_in" style="left:125px;"><input class="einfcri" type="text" placeholder="请输入您的姓名" /></div>
+                            </div>
+                            <div class="sdatad_list">
+                                <div class="sddl_t" style="color:#000000; width:110px;">职业/头衔</div>
+                                <div class="sddl_in" style="left:125px;"><input class="einfcri"  type="text" placeholder="请输入您现在的职位/头衔"  /></div>
+                            </div>
+                            <div class="sdatad_list">
+                                <div class="sddl_t" style="color:#000000; width:110px;">从业年限</div>
+                                <div class="sddl_in" style="left:125px;"><input class="einfcri"  type="text" placeholder="请输入您的从业年限" /></div>
+                            </div>
+                            <div class="sdatad_list">
+                                <div class="sddl_t" style="color:#000000; width:110px;">工作手机号</div>
+                                <div class="sddl_in" style="left:125px;"><input class="einfcri"  type="tel" placeholder="请输入您的工作手机号" /></div>
+                            </div>
+                            <div class="sdatad_list" style="margin-top:30px;">
+                                <div class="sddl_t" style="color:#000000; width:110px;">所属省</div>
+                                <div class="einfcr_in">
+                                	<select  onchange="loadCity()">
+                                        <option>请选择省</option>
+                                        <option value="1">浙江</option>
+                                        <option value="2">福建</option>
+                                        <option value="3">新疆</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="sdatad_list" style="margin-top:10px;">
+                                <div class="sddl_t" style="color:#000000; width:110px;">服务城市</div>
+                                <div class="einfcr_in">
+                                	<select  onchange="loadCity()">
+                                        <option>请选择城市</option>
+                                        <option value="1">北京</option>
+                                        <option value="2">上海</option>
+                                        <option value="3">重庆</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="sdatad_list" style="margin-top:10px;">
+                                <div class="sddl_t" style="color:#000000; width:110px;">服务范围</div>
+                                <div class="einfcr_in">
+                                	<select  onchange="loadCity()">
+                                        <option>请选择服务范围</option>
+                                        <option value="1">全城</option>
+                                        
+                                    </select>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="einfcr_tel" >咨询热线：<span>021-439-5999</span></div>
+                        <div class="einfcr_button">
+                            下一步
+                        </div>
+                    </div>
+                </div>
+                
+                <!------------------自我介绍------------------->
+                <div class="aut_brief"  style="display:none;">
+                	<div class="aut_title">
+                    	<span class="title_01">好呗&nbsp;Hobbier —— 红人认证</span>
+                        <span class="title_02">个人兴趣爱好技能的服务平台</span>
+                        <img src="images/aut_t2.png" />
+                    </div>
+                    <div class="einf_c"  style="top:50px;">
+                        <div class="brief_c">
+                            <textarea class="fl" autocomplete="off" placeholder="在这里输入您的自我介绍……（最多2000字） 例如：从业经验、案例、帮助达到了什么效果等等" title="在这里输入您的自我介绍……（最多2000字） 例如：从业经验、案例、帮助达到了什么效果等等"></textarea>
+                        </div>
+                        <div class="einfcr_tel" style="width:495px;">咨询热线：<span>021-439-5999</span></div>
+                        <div class="einfcr_button">下一步</div>
+                        <div class="einfcr_button02">返回上一步</div>
+                    </div>
+                    
+                </div>
+                
+                <!------------------红人认证------------------->
+                <div class="aut_id" >
+                	<div class="aut_title">
+                    	<span class="title_01">好呗&nbsp;Hobbier —— 红人认证</span>
+                        <span class="title_02">个人兴趣爱好技能的服务平台</span>
+                        <img src="images/aut_t3.png" />
+                    </div>
+                    <div class="einf_c"  style="top:50px;">
+                        <div class="einfc_r" style="left:0px; padding-bottom:130px;">
+                        	<div class="sdatad_list" >
+                                <div class="sddl_t" style="color:#000000; width:140px;">身份证/护照号</div>
+                                <div class="sddl_in" style="left:155px;"><input class="einfcri" type="text" placeholder="请输入身份证/护照号" /></div>
+                            </div>
+                            <div class="einfc_sf">
+                            	<div class="einfcsf_li del fl">
+                                	<ico></ico>
+                                    <img src="images/aut_lz.png" />
+                                </div>
+                                <div class="einfcsf_li fl">
+                                	<ico></ico>
+                                    <img src="images/aut_lz.png" />
+                                </div>
+                                <div class="clear"></div>
+                                <div class="aid_text">请手持身份证或护照拍摄，保证图片清晰</div>
+                            </div>
+                            
+                            <div class="sdatad_list" style="margin-top:25px;">
+                                <div class="sddl_t" style="color:#000000; width:140px;">证书名称</div>
+                                <div class="sddl_in" style="left:155px;"><input class="einfcri" type="text" placeholder="请输入我所拥有的相关证书" /></div>
+                            </div>
+                            <div class="einfc_zs">
+                            	<div class="einfczs_li del fl">
+                                	<ico></ico>
+                                    <img src="images/aut_lz.png" />
+                                </div>
+                                <div class="einfczs_li del fl">
+                                	<ico></ico>
+                                    <img src="images/aut_lz.png" />
+                                </div>
+                                <div class="einfczs_li del fl">
+                                	<ico></ico>
+                                    <img src="images/aut_lz.png" />
+                                </div>
+                                <div class="einfczs_li del fl">
+                                	<ico></ico>
+                                    <img src="images/aut_lz.png" />
+                                </div>
+                                <div class="einfczs_li add fl">
+                                	
+                                </div>
+                                
+                                <div class="aid_record">最多可上传 4/6张</div>
+                            </div>
+                            <div class="einfcr_tel" style="bottom:70px; width:495px;">咨询热线：<span>021-439-5999</span></div>
+                            <div class="einfcr_button" style="bottom:20px">提交审核</div>
+                            <div class="einfcr_button02" style="bottom:20px">返回上一步</div>
+                            <div class="efb_amt" >提交审核即代表同意<a href="#">《好呗平台服务协议》</a></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!----------------------------------商户认证-------------------------------------->
+            <div class="my_bg" >
+            	<!------------------基本信息------------------->
+            	<div class="aut_einf" style="display:none">
+                	<div class="aut_title">
+                    	<span class="title_01">好呗&nbsp;Hobbier —— 商户认证</span>
+                        <span class="title_02">社群运营服务平台 · 助力商户把握营销机遇</span>
+                        <img src="images/aut02_t1.png" />
+                    </div>
+                    <div class="einf_c" style="top:30px;">
+                    	<div class="einfc_l">
+                        	
+                        </div>
+                        <div class="sdata_head" style="left:70px; right:inherit; top:30px;">
+                            <div class="adh_i">
+                                <ico></ico>
+                                设置商户logo
+                            </div>
+                        </div>
+                        <div class="einfc_r">
+                        	<div class="sdatad_list">
+                                <div class="sddl_t" style="color:#000000; width:110px;">商户名称</div>
+                                <div class="sddl_in" style="left:125px;"><input class="einfcri" type="text" placeholder="请输入您商户的名" /></div>
+                            </div>
+                            <div class="sdatad_list" style="margin-top:10px;">
+                                <div class="sddl_t" style="color:#000000; width:110px;">商户地址</div>
+                                <div class="sddl_in" style="left:125px;"><input class="einfcri"  type="text" placeholder="请输入您商户的具体地址"  /></div>
+                            </div>
+                            <div class="sdatad_list" style="margin-top:10px;">
+                                <div class="sddl_t" style="color:#000000; width:110px;">联系电话</div>
+                                <div class="sddl_in" style="left:125px;"><input class="einfcri"  type="text" placeholder="请输入您的联系电话" /></div>
+                            </div>
+                            <div class="sdatad_list" style="margin-top:10px;">
+                                <div class="sddl_t" style="color:#000000; width:110px;">主体信息</div>
+                                <div class="sddl_in" style="left:125px;"><input class="einfcri"  type="tel" placeholder="请输入您商户的主体信息" /></div>
+                            </div>
+                            <div class="sdatad_list" style="margin-top:10px;">
+                                <div class="sddl_t" style="color:#000000; width:110px;">注册信息</div>
+                                <div class="sddl_in" style="left:125px;"><input class="einfcri"  type="tel" placeholder="请输入您商户的注册信息" /></div>
+                            </div>
+                            <div class="sdatad_list" style="margin-top:20px;">
+                                <div class="sddl_t" style="color:#000000; width:110px;">所属省</div>
+                                <div class="einfcr_in">
+                                	<select  onchange="loadCity()">
+                                        <option>请选择省</option>
+                                        <option value="1">浙江</option>
+                                        <option value="2">福建</option>
+                                        <option value="3">新疆</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="sdatad_list"  style="margin-top:10px;">
+                                <div class="sddl_t" style="color:#000000; width:110px;">服务城市</div>
+                                <div class="einfcr_in">
+                                	<select  onchange="loadCity()">
+                                        <option>请选择城市</option>
+                                        <option value="1">北京</option>
+                                        <option value="2">上海</option>
+                                        <option value="3">重庆</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="sdatad_list" style="margin-top:10px;">
+                                <div class="sddl_t" style="color:#000000; width:110px;">服务范围</div>
+                                <div class="einfcr_in">
+                                	<select  onchange="loadCity()">
+                                        <option>请选择服务范围</option>
+                                        <option value="1">全城</option>
+                                        
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="einfcr_tel" >咨询热线：<span>021-439-5999</span></div>
+                        <div class="einfcr_button">
+                            下一步
+                        </div>
+                    </div>
+                </div>
+                
+                <!------------------自我介绍------------------->
+                <div class="aut_brief" style="display:none">
+                	<div class="aut_title">
+                    	<span class="title_01">好呗&nbsp;Hobbier —— 商户认证</span>
+                        <span class="title_02">社群运营服务平台 · 助力商户把握营销机遇</span>
+                        <img src="images/aut02_t2.png" />
+                    </div>
+                    <div class="einf_c"  style="top:50px;">
+                        <div class="brief_c">
+                            <textarea class="fl" autocomplete="off" placeholder="在这里输入您的自我介绍……（最多2000字） 例如：商户开了多少年，服务过多少群体，达到什么成就" title="在这里输入您的自我介绍……（最多2000字） 例如：商户开了多少年，服务过多少群体，达到什么成就"></textarea>
+                        </div>
+                        <div class="einfcr_tel" style="width:495px;">咨询热线：<span>021-439-5999</span></div>
+                        <div class="einfcr_button">下一步</div>
+                        <div class="einfcr_button02">返回上一步</div>
+                    </div>
+                </div>
+                
+                <!------------------商户认证------------------->
+                <div class="aut_id" >
+                	<div class="aut_title">
+                    	<span class="title_01">好呗&nbsp;Hobbiey —— 商户认证</span>
+                        <span class="title_02">社群运营服务平台 · 助力商户把握营销机遇</span>
+                        <img src="images/aut02_t3.png" />
+                    </div>
+                    <div class="einf_c"  style="top:50px;">
+                        <div class="einfc_r" style="left:0px; padding-bottom:130px;">
+                        	<div class="sdatad_list">
+                                <div class="sddl_t" style="color:#000000; width:140px;">身份证/护照号</div>
+                                <div class="sddl_in" style="left:155px;"><input class="einfcri" type="text" placeholder="请输入身份证/护照号" /></div>
+                            </div>
+                            <div class="einfc_sf">
+                            	<div class="einfcsf_li del fl">
+                                	<ico></ico>
+                                    <img src="images/aut_lz.png" />
+                                </div>
+                                <div class="einfcsf_li fl">
+                                	<ico></ico>
+                                    <img src="images/aut_lz.png" />
+                                </div>
+                                <div class="clear"></div>
+                                <div class="aid_text">请手持身份证或护照拍摄，保证图片清晰</div>
+                            </div>
+                            
+                            <div class="sdatad_list" style="margin-top:25px;">
+                                <div class="sddl_t" style="color:#000000; width:140px;">营业执照</div>
+                                <div class="sddl_in" style="left:155px;"><input class="einfcri" type="text" placeholder="请输入您的营业执照名称" /></div>
+                            </div>
+                            <div class="einfc_zs">
+                            	<div class="einfczs_li del fl">
+                                	<ico></ico>
+                                    <img src="images/aut_lz.png" />
+                                </div>
+                                <div class="einfczs_li del fl">
+                                	<ico></ico>
+                                    <img src="images/aut_lz.png" />
+                                </div>
+                                <div class="einfczs_li del fl">
+                                	<ico></ico>
+                                    <img src="images/aut_lz.png" />
+                                </div>
+                                <div class="einfczs_li del fl">
+                                	<ico></ico>
+                                    <img src="images/aut_lz.png" />
+                                </div>
+                                
+                                <div class="einfczs_li add fl">
+                                	
+                                </div>
+                                
+                                <div class="aid_record">最多可上传 4/6张</div>
+                            </div>
+                            <div class="einfcr_tel" style="bottom:70px; width:495px;">咨询热线：<span>021-439-5999</span></div>
+                            <div class="einfcr_button" style="bottom:20px">提交审核</div>
+                            <div class="einfcr_button02" style="bottom:20px">返回上一步</div>
+                            <div class="efb_amt" >提交审核即代表同意<a href="#">《好呗平台服务协议》</a></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>
+        
+    </div>
+
+    
+</body>
+</html>
