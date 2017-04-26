@@ -1978,9 +1978,9 @@ body{
 	top:0px;
 	right:0px;
 	width:auto;
-	height:100%;
-
 	z-index:4;
+	overflow:auto;
+	bottom:0px;
 	}
 .ucc_tnav{
 	height:60px;
@@ -2135,17 +2135,25 @@ body{
 
 
 /************************my_bg**********************/
-.my_bg{
+.my_bg02{
 	position:absolute;
-	left:25px;
-	top:80px;
-	bottom:25px;
-	right:25px;
-	width:auto;
-	background:#fff;
-	border-radius:2px;
-	overflow:hidden;
-	padding:40px;
+	top: 80px;
+	left: 25px;
+	right: 31px;
+	bottom: 30px;
+	background: #fff;
+	border-radius: 2px;
+	padding: 40px;
+	}
+.my_bg{
+	margin-right: 25px;
+	width: auto;
+	background: #fff;
+	border-radius: 2px;
+	padding: 40px;
+	height: auto;
+	margin-left: 25px;
+	margin-top: 80px;
 	}
 
 .wallet_data{
@@ -2340,7 +2348,7 @@ body{
 	}
 
 .followc_list{
-	height:120px;
+	height:90px;
 	width:100%;
 	margin-bottom:15px;
 	border:1px solid #eaeaea;
@@ -2357,14 +2365,13 @@ body{
 	background:#aaa;
 	border-radius:70px;
 	overflow:hidden;
-	margin:23px 20px 23px 20px;
+	margin: 9px 20px 0px 20px;
 	}
 .fcl_c{
 	position:absolute;
 	right:85px;
 	left:115px;
-	height:92px;
-	top:24px;
+	top:9px;
 	text-align:left;
 	}
 .fclc_name{
@@ -2382,16 +2389,16 @@ body{
 
 .fclc_text{
 	line-height:19px;
-	padding-top:5px;
+	padding-top:4px;
 	height:42px;
 	font-size:14px;
-	color:#00445c;
+	color:#666;
 	overflow:hidden;
 	}
 .fclc_d{
 	position:absolute;
 	right:20px;
-	top:36px;
+	top:23px;
 	background:url(../images/close.png) no-repeat center center;
 	width:46px;
 	height:46px;
@@ -2451,7 +2458,7 @@ body{
 
 
 .raac_list{
-	height:110px;
+	height:90px;
 	width:100%;
 	margin-bottom:25px;
 	border:1px dashed #ccc;
@@ -2472,8 +2479,7 @@ body{
 	position:absolute;
 	right:85px;
 	left:20px;
-	height:92px;
-	top:22px;
+	top:17px;
 	text-align:left;
 	}
 .raaclc_name{
@@ -2490,30 +2496,29 @@ body{
 	}
 
 .raaclc_text{
-	line-height:17px;
-	padding-top:18px;
-	height:30px;
-	font-size:20px;
-	color:#999;
-	letter-spacing:1px;
+	line-height: 17px;
+	padding-top: 8px;
+	height: 30px;
+	font-size: 16px;
+	color: #999;
+	letter-spacing: 1px;
 	}
 .raacl_m{
 	position:absolute;
 	right:10px;
-	top:30px;
 	color:#f60;
 	width:76px;
-	height:46px;
-	font-size:24px;
+	height:90px;
+	font-size:20px;
 	text-align:centerl;
-	line-height:46px;
+	line-height:90px;
 	display:none;
 	}
 
 .ralon .raaclc_name{
 	height:28px;
 	line-height:28px;
-	font-size:26px;
+	font-size:22px;
 	color:#333;
 	text-align:left;
 	}
@@ -2656,12 +2661,8 @@ body{
 	}
 	
 .sdata_d{
-	position:absolute;
-	right:40px;
-	left:40px;
-	top:15px;
-	bottom:20px;
-	overflow:auto;
+	width:100%;
+	height:auto;
 
 	}
 
@@ -2993,16 +2994,15 @@ body{
 	height:100%;
 	width:100%;
 	position:relative;
-	bottom:-20px;
 	}
 
 .aut_title{
 	border-bottom: 1px solid #d1d1d1;
-    height:80px;
-    position: relative;
-    text-align: left;
-    width: 100%;
-	top:-50px;
+	height: 80px;
+	position: relative;
+	text-align: left;
+	width: 100%;
+	top: -20px;
 	}
 .aut_title .title_01{
 	font-size:20px;
@@ -3027,15 +3027,10 @@ body{
 	}
 
 .einf_c{
- 	bottom: 0;
-    left:0;
-    margin-right: -20px;
-    overflow: auto;
-    padding-right: 20px;
-    position: absolute;
-    right:0;
-    top: 100px;
-    width: auto;
+ 	width: 100%;
+	height: auto;
+	bottom: 0;
+	left: 0;
 	}
 
 .einfc_l{
@@ -3047,17 +3042,18 @@ body{
 	border: 1px solid #e2e5e8;
 	background:url(../images/aut_bg.png) center center;
 	background-size:220px;
+	position:absolute;
 	}
 .einfc_l img{
 	width:240px;
 	}
 
 .einfc_r{
-	position:absolute;
-	left:430px;
-	right:20px;
-	height:auto;
-	top:0px;
+	
+	}
+.einfc_r02{
+	width:auto;
+	margin-left:400px;
 	}
 
 .einfcri::-webkit-placeholder{
@@ -3102,30 +3098,27 @@ body{
 	letter-spacing:1px;
 	}
 .einfcr_tel{
-	bottom: 50px;
-    color: #666;
-    font-size: 14px;
-    height: 22px;
-    line-height: 22px;
-    position: absolute;
-    right: 30px;
-    text-align: left;
-    width: 240px;
+	width: 100%;
+	text-align: right;
+	color: #666;
+	font-size: 14px;
+	height: 22px;
+	line-height: 22px;
+	padding-top:100px;
+	
 	}
 .einfcr_tel span{
 	color:#f60;
 	padding-left:7px;
 	}
 .efb_amt{
-	bottom:-10px;
-    color: #666;
-    font-size: 12px;
-    height: 22px;
-    line-height: 22px;
-    position: absolute;
-    right: 30px;
-    text-align:right;
-    width:400px;
+	color: #666;
+	font-size: 12px;
+	height: 22px;
+	line-height: 22px;
+	right: 30px;
+	text-align: right;
+	margin-top: 50px;
 	}
 .efb_amt a{
 	color:#f60;
@@ -3140,11 +3133,11 @@ body{
     height: 45px;
     letter-spacing: 2px;
     line-height: 45px;
-    margin-top: 25px;
-    position: absolute;
     right: 30px;
     text-align: center;
     width:240px;
+	float:right;
+	margin-left:15px;
 	}
 .einfcr_button:hover{
 	background:#f60;
@@ -3160,24 +3153,24 @@ body{
     height: 45px;
     letter-spacing: 2px;
     line-height: 45px;
-    margin-top: 25px;
-    position: absolute;
     right:285px;
     text-align: center;
     width:240px;
+	float:right;
+	}
+.einf_button{
+	width:100%;
+	height:80px;
+	padding-top:10px;
+	
 	}
 .aut_brief{
 	height:100%;
 	width:100%;
 	position:relative;
-	bottom:-20px;
 	}
 .brief_c{
-	position:absolute;
-	left:0px;
-	top:0px;
-	right:20px;
-	bottom:95px;
+	min-height:320px;
 	width:100%;
 	}
 .einf_c textarea{
@@ -3186,7 +3179,7 @@ body{
     color: #6f7180;
     font-family: "Roboto","Segoe UI",Arial,sans-serif;
     font-size: 15px;
-    height:100%;
+    height:320px;
     line-height: 20px;
     resize: none;
     text-align: left;
@@ -3194,10 +3187,8 @@ body{
 	}
 /*************************aut_id**********************************/
 .aut_id{
-	height:100%;
+	height:auto;
 	width:100%;
-	position:relative;
-	bottom:-20px;
 	}
 
 .einfc_sf{
@@ -3371,7 +3362,37 @@ body{
 	box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.12);
 	}
 
+.f_pop {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    width: 320px;
+    height: auto;
+    padding: 60px 40px;
+    line-height: 24px;
+    background: #00435E;
+    background: rgba(0, 67, 94, 0.8) none repeat scroll 0 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -120px;
+    left: 50%;
+    margin-left: -200px;
+    z-index: 80;
+    box-shadow: 0px 0px 16px rgba(24, 71, 90, 0.6);
+}
+
+.f_pop .close {
+    background: url(../images/close_x.png) center center;
+    background-size: 16px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.8;
+}
 
 
-	
+
+
 	
